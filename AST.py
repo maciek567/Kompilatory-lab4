@@ -145,8 +145,8 @@ class MatrixTransposed(Node):
 
 
 class Vector(Node):
-    def __init__(self, list_expr):
-        self.list_expr = [list_expr]
+    def __init__(self, vector_row1):
+        self.vector_row1 = [vector_row1]
 
 
 class VectorRow(Node):

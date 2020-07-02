@@ -27,7 +27,7 @@ class NodeVisitor(object):
             for elem in node:
                 self.visit(elem)
         else:
-            for child in node.children:
+            for child in node.vector_row1:
                 if isinstance(child, list):
                     for item in child:
                         if isinstance(item, AST.Node):
